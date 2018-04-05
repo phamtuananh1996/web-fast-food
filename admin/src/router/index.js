@@ -4,6 +4,7 @@ import Login from '@/containers/login/index'
 
 // Containers
 import Full from '@/containers/Full'
+import User from '@/containers/user/index'
 
 // Views
 import Dashboard from '@/views/Dashboard'
@@ -28,6 +29,11 @@ export default new Router({
           path: 'dashboard',
           name: 'Dashboard',
           component: Dashboard
+        },
+        {
+          path: 'user',
+          name: 'User',
+          component: User
         }
 
       ]
