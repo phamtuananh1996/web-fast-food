@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Login from '@/containers/login/index'
+import Login from '@/views/login/index'
 
 // Containers
 import Full from '@/containers/Full'
-import User from '@/containers/user/index'
 
 // Views
 import Dashboard from '@/views/Dashboard'
+import User from '@/views/user/index'
 
 Vue.use(Router)
 
